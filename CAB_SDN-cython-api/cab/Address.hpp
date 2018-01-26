@@ -237,7 +237,7 @@ inline addr_5tup::addr_5tup(const string & str) {
     for (int i = 0; i < 4; ++i){
         prev = idx+1;
         idx = str.find_first_of("%", prev);
-        addrs[0] = stoul(str.substr(prev, idx - prev));
+        addrs[i] = stoul(str.substr(prev, idx - prev));
     }
 }
 
