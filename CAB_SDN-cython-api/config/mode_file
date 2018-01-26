@@ -1,0 +1,7 @@
+mode	3
+simuT	600
+load	50
+TCAMcap	1500
+//tracefile_str	./TracePruning/GENtrace/ref_trace.gz
+//tracefile_str	./TracePruning/IDtrace/ref_trace.gz
+tracefile_str	./ref_trace.gz

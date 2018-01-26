@@ -1,0 +1,16 @@
+f_arr	100
+simu_T	1800
+hot_no	20
+hot_arr	10
+c_prob	0.01
+hr_thres	6
+h_candi_no	40
+hot_ref	../metadata/tree_pr.dat
+hot_c	../metadata/hotspot.dat
+mutate scalar	4 1
+root dir	./Trace_Generate
+flow arrival file	../metadata/flow_info
+pcap dir	/mnt/Day0/CAP_NIC1
+parsed pcap dir	/home/Junan/trace
+evolving interval	20
+evolving no	10

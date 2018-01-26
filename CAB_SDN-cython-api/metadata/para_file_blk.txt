@@ -1,0 +1,16 @@
+f_arr	100
+simu_T	600
+hot_no	20
+hot_arr	10
+c_prob	0.005
+hr_thres	5
+h_candi_no	200
+hot_ref	../para_src/tree_pr.dat
+hot_c	../para_src/hotspot.dat
+mutate scalar	4 1
+root dir	./Trace_Generate_blk
+flow arrival file	../para_src/flow_info_blk
+pcap dir	/mnt/Day0/CAP_NIC1
+parsed pcap dir	/home/bovenyan/trace
+evolving interval	20
+evolving no	10

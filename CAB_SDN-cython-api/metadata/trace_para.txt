@@ -1,0 +1,12 @@
+f_arr	5
+simu_T	600
+hot_no	10
+hot_arr	0
+c_prob	0.001
+hr_thres	6
+h_candi_no	10
+hot_ref	../para_src/tree_pr.dat
+hot_c	../para_src/hotspot.dat
+root dir	./Trace_Generate
+flow arrival file	../para_src/flow_info
+parsed pcap dir	../../trace

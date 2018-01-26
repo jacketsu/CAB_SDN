@@ -1,0 +1,5 @@
+mode	0
+simuT	600
+TCAMcap	4000
+rtt	0.2
+tracefile_str	../ref_trace.gz
