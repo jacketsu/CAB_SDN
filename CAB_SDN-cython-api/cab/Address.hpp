@@ -416,6 +416,8 @@ inline pref_addr::pref_addr(const string & prefstr) {
     int idx = prefstr.find_first_of("/");
     uint32_t maskInt = stoul(prefstr.substr(idx+1));
     mask = 0;
+    if (maskInt != 0)
+        mask = ((~uint32_t(0)) << (32-maskInt));
     pref = 0;
 
     string pStr = prefstr.substr(0, idx);
